@@ -10,4 +10,4 @@ ReactDOM.render(<App />, document.getElementById('root'));
 //ReactDOM.render(<Sidebar />, document.getElementById('root'));
 
 
-serviceWorker.register();
+serviceWorker.unregister();
